@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+.env
+
+#cache de python
+__pycache__/
+*.py[cod]   
+# Logs
+*.log   
+# IDEs
+.idea/  
+.vscode/
+# variables de entorno y secretos - no subir al repositorio
+.env
+.env .local
+.env.local
+.env.development
+.env.test
+.env.production 
+# archivos del sistema operativo
+.DS_Store
+Thumbs.db
+# jupyter notebook
+.ipynb_checkpoints
+
+
